@@ -24,8 +24,10 @@
     "cherished-worlds",
     "chunk-animator",
     "clickable-advancements",
+    "compass-coords",
     "configured",
     "controlling",
+    "craftpresence",
     "ctm",
     "custom-main-menu",
     "dark-mode-everywhere",
@@ -44,6 +46,7 @@
     "entity-collision-fps-fix",
     "entity-texture-features-fabric",
     "entityculling",
+    "equipment-compare",
     "extreme-sound-muffler",
     "ezzoom",
     "fading-night-vision",
@@ -61,6 +64,8 @@
     "inmisaddon",
     "iris-flywheel-compat",
     "irisshaders",
+    "item-borders",
+    "item-highlighter",
     "item-obliterator",
     "itemphysic-lite",
     "itemzoom",
@@ -68,7 +73,6 @@
     "just-enough-mekanism-multiblocks",
     "just-enough-resources-jer",
     "just-zoom",
-    "konkrete",
     "legendary-tooltips",
     "lighty",
     "loot-capacitor-tooltips",
@@ -110,6 +114,8 @@
     "sodium-extra",
     "sodium-options-api",
     "sodium-rubidium-occlusion-culling-fix",
+    "sound",
+    "sound-reloader",
     "sound-filters",
     "sound-physics-remastered",
     "stellar-sky",
@@ -125,6 +131,7 @@
     "vanillafix",
     "visuality",
     "waila-harvestability",
+    "wawla",
     "xaeroplus",
     "yungs-menu-tweaks",
     "zume"
@@ -133,11 +140,18 @@
     "all-of-fabric-6": {
       "forceIncludes": ["revelationary"]
     },
-    "valhelsia-5": {
-      "excludes": ["modernfix"]
-    },
     "create-arcane-engineering": {
       "forceIncludes": ["just-enough-resources-jer"]
+    },
+    "skyfactory-5": {
+      "forceIncludes": [
+        "colored-torches",
+        "dye-mob-dye",
+        "openstairs"
+      ]
+    },
+    "valhelsia-5": {
+      "excludes": ["modernfix"]
     }
   }
 }
